@@ -1,0 +1,16 @@
+﻿2.1.4
+Changelog:
+-Fixed Materials processing.
+-Fixed OBJ objects creation.
+-Fixed ScanForAlphaPixels Asset Loader Option.
+-Fixed gLTF2 binary files loading.
+-Fixed duplicated name renaming method.
+-Fixed normals calculation on meshes without normals
+-Removed obligatory Animation component creation.
+-Deprecated FBXReader.MergeSingleChildDocument.
+-Added automatic Material default color assignment when there is a Texture in the same slot.
+-Added mobile controls to the Asset Viewer demo.
+-Added GltfReader.SpotLightDistance static field. Use this field to define the Spot Lights range (distance) when loading gLTF2 models.
+Version Notes:
+-Added experimental Cameras support. To enable it, enable the AssetLoaderOptions.ImportCameras field.
+-Added experimental Lights support. To enable it, enable the AssetLoaderOptions.ImportLights field.

@@ -1,0 +1,8 @@
+- TriLib is not a Model exporter.
+- FBX Importer does not import multiple texture layers yet.  
+- Lights and Cameras are not supported yet.
+- 3MF Beam Lattice format is not supported yet.
+- 3MF PBR Specular materials are not supported yet.
+- Blend-shape normals and tangents are not imported yet.
+- Unrestricted bones-per-vertex option in the works.
+- Displacement maps are not supported at the moment.
